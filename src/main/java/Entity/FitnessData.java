@@ -6,14 +6,14 @@ import java.time.LocalDateTime;
 
 @Entity
 @Data
-@Table(name = "fitness_data") // замінив дефіс на нижнє підкреслення
+@Table(name = "fitness_data")
 public class FitnessData {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
 
-    private int healthScore;  // або поясни, що це
+    private int healthScore;
 
     private int pulse;
 
